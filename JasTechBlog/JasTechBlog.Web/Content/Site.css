@@ -22,3 +22,55 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.navbar-inverse {
+    background-color: #009688;
+    border-color: #30b2a6;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+       transform: translateY(-2px);      
+       border-bottom: 1px #ffffff dashed;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 1px solid #009688;
+    border-left-width: 5px;
+    border-radius: 3px;
+    webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    border-bottom: 5px solid rgba(119,119,119,0.5);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(119,119,119,0.5);
+    -moz-box-shadow: 0 2px 2px 0 rgba(119,119,119,0.5);
+    box-shadow: 0 2px 2px 0 rgba(119,119,119,0.5);
+    display: block;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    
+}
+
+    .bs-callout:hover {
+        transform: translateY(-10px);
+        /*border-bottom: #808080;*/
+    }
+
+.btn-default {
+    color: #ffffff;
+    background-color: #009688;
+    border-color: #30b2a6;
+}
+
+.author {
+    color: #009688;    
+}
